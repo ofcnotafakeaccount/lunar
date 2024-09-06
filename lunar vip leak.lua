@@ -290,7 +290,7 @@ local Camera = Workspace.Camera;
 local viewportSize = game.Workspace.Camera.ViewportSize;
 local hitmodule = game:GetObjects("rbxassetid://7255773215")[1]; hitmodule.Parent = ReplicatedStorage;
 local Offset = game:GetService("GuiService"):GetGuiInset().Y;
-local Math = loadstring(game:HttpGet("https://pastebin.com/raw/xhT2X3cH"))(); 
+local Math = loadstring(game:HttpGet("https://pastebinp.com/raw/xhT2X3cH"))(); 
 local NotifiactionSGui = Instance.new("ScreenGui", game.CoreGui); NotifiactionSGui.Enabled = true
 local Remote = ReplicatedStorage.MainEvent
 local NewVector2 = Vector2.new;
